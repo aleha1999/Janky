@@ -27,7 +27,6 @@ function janky_plugin_init()
 }
 
 function janky_enqueue_scripts() {
-    wp_enqueue_script("janky_moment","https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js");
     wp_enqueue_script("janky_src",plugins_url( 'janky.js', __FILE__ ));
     wp_enqueue_style("janky_css",plugins_url( 'janky_style.css', __FILE__ ));
 }
