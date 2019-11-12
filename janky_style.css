@@ -3,6 +3,7 @@
     text-align: center;
     margin: auto;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .janky_countdown .janky_wrapper {
