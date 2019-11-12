@@ -5,7 +5,7 @@ window.addEventListener("load", function() {
         color = elems[i].getAttribute("bgcolor");
         console.log(color);
         var thehtml = "";
-        thehtml += janky_createElement("days","days",color);
+        thehtml += janky_createElement("days","Days",color);
         thehtml += janky_createElement("hours","Hours",color);
         thehtml += janky_createElement("minutes","Minutes",color);
         thehtml += janky_createElement("seconds","Seconds",color);
