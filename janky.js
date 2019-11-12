@@ -3,7 +3,6 @@ window.addEventListener("load", function() {
     for(var i = 0; i < elems.length; i++) {
         elems[i].innerHTML = "";
         color = elems[i].getAttribute("bgcolor");
-        console.log(color);
         var thehtml = "";
         thehtml += janky_createElement("days","Days",color);
         thehtml += janky_createElement("hours","Hours",color);
